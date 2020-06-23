@@ -1,5 +1,5 @@
 // API url with our JSON data
-var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson";
+var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson";
 
 // use d# to retrieve our data and add markers and pop up tool tips
 d3.json(queryUrl,function(data){
